@@ -92,10 +92,10 @@ WSGI_APPLICATION = 'FinDataPoint.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'OPODB',
-        'USER': 'sa',
-        'PASSWORD': 'Itteam@19',
-        'HOST': 'ADAS\MSSQL2019EXP',
+        'NAME': 'djangodb',
+        'USER': 'vrxorderadmin',
+        'PASSWORD': '340$Uuxwp7Mcxo7Khy',
+        'HOST': 'vrxsyncsqlserver.database.windows.net',
         'PORT': '',
 
         'OPTIONS': {
